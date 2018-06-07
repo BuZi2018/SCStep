@@ -1,0 +1,27 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test
+    username: root
+    password: Buyf123456
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        hbm2ddl:
+          auto: update
+
+
+
+#    spring.datasource.driver-class-name=com.mysql.jdbc.Driver
+#    spring.datasource.url=jdbc:mysql://106.15.193.254:3306/kangcidbtest
+#    spring.datasource.username=KangCi
+#    spring.datasource.password=Kc123!qaz
+#
+#
+#    spring.thymeleaf.mode=LEGACYHTML5
+#    spring.thymeleaf.cache=false
+#
+#    spring.jpa.properties.hibernate.hbm2ddl.auto=update
+#    spring.jpa.show-sql = true
+
